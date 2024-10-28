@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-28T10:17:01 IST" name="Default suite" finished-at="2024-10-28T10:17:06 IST" duration-ms="5215">
+    <groups>
+    </groups>
+    <test started-at="2024-10-28T10:17:01 IST" name="Default test" finished-at="2024-10-28T10:17:06 IST" duration-ms="5215">
+      <class name="apiTest.D02_Header">
+        <test-method signature="GetAllHeader()[pri:0, instance:apiTest.D02_Header@5ba3f27a]" started-at="2024-10-28T10:17:01 IST" name="GetAllHeader" finished-at="2024-10-28T10:17:05 IST" duration-ms="4059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllHeader -->
+        <test-method signature="GetSingleHeader()[pri:0, instance:apiTest.D02_Header@5ba3f27a]" started-at="2024-10-28T10:17:05 IST" name="GetSingleHeader" finished-at="2024-10-28T10:17:06 IST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSingleHeader -->
+      </class> <!-- apiTest.D02_Header -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
