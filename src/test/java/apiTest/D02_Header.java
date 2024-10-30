@@ -27,4 +27,14 @@ public class D02_Header {
 		
 		System.out.println("get single response :"+rs.getHeader("Content-Type"));
 	}
+
+	@Test
+	public void GetAllHeaderFromResponse() {
+		Response rs = given()
+		.when()
+		.get("https://google.com");
+		
+		System.out.println("get single response :"+rs.headers());
+	}
+
 }

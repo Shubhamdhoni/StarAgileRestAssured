@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.equalTo;
 import java.util.HashMap;
 
 import org.testng.annotations.Test;
-
+	
 public class C03_PostRequest {
 
 	@Test
@@ -45,18 +45,5 @@ public class C03_PostRequest {
 		.body("name", equalTo("Shubham"))  //validating the name in the response  
 		.log().body();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
